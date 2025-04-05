@@ -194,6 +194,7 @@ html {
 .tools {
     margin-top: 24px;
     display: flex;
+    column-gap: 16px;
 }
 
 .searchCont {
@@ -242,6 +243,21 @@ html {
     border: 1px solid hsl(0, 0%, 83%);
     background-color: white;
     color: #212529;
+}
+
+.sortDropdown {
+    appearance: none;
+    /* removes default arrow for most browsers */
+    -webkit-appearance: none;
+    /* for Safari */
+    -moz-appearance: none;
+    /* for Firefox */
+    font-size: 16px;
+    padding: 12px 16px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid hsl(0, 0%, 83%);
+    background-color: white;
+    border-radius: 12px;
 }
 
 .projectList {

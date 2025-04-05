@@ -20,5 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 project.style.display = "none";
             }
         });
+
+        AOS.refresh();
     });
 });

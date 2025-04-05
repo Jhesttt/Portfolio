@@ -369,6 +369,18 @@ html {
     background-color: #29903B;
 }
 
+.node:hover {
+    background-color: #8CC84B;
+}
+
+.mysql:hover {
+    background-color: #00758f;
+}
+
+.postman:hover {
+    background-color: #FF6C37;
+}
+
 .svgs {
     height: 28px;
     width: 28px;
