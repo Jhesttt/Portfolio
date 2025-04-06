@@ -149,6 +149,8 @@ html {
 }
 
 .menu-icon {
+    width: 32px;
+    height: 32px;
     display: none;
     transition: 0.15s;
     cursor: pointer;
@@ -624,6 +626,21 @@ html {
     color: #F8F9FA;
 }
 
+.contact-info a {
+    color: white !important;
+    transition: 0.15s;
+    opacity: 0.595;
+}
+
+.contact-info a:hover {
+    opacity: 1;
+}
+
+.contactIcons {
+    width: 16px;
+    height: 16px;
+}
+
 .quick-links,
 .contact-info,
 .social-links {
@@ -636,6 +653,17 @@ html {
     display: flex;
     flex-direction: row !important;
     gap: 8px !important;
+}
+
+.socialIcon {
+    width: 36px;
+    height: 36px;
+    opacity: 0.595;
+    transition: 0.15s;
+}
+
+.socialIcon:hover {
+    opacity: 1;
 }
 
 .subfooter {

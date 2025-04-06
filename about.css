@@ -149,6 +149,8 @@ html {
 }
 
 .menu-icon {
+    width: 32px;
+    height: 32px;
     display: none;
     transition: 0.15s;
     cursor: pointer;
