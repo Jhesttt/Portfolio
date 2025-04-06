@@ -498,3 +498,25 @@ html {
         padding: 60px 36px;
     }
 }
+
+@media all and (max-width: 426px) {
+    .navbar {
+        padding: 4px 16px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .links li:not(:last-child) {
+        display: none;
+    }
+
+    .content {
+        padding: 24px;
+    }
+
+    .mainfooter {
+        padding: 40px 24px;
+    }
+}

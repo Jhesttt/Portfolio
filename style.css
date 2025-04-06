@@ -841,3 +841,32 @@ html {
         padding: 60px 36px;
     }
 }
+
+@media all and (max-width: 426px) {
+    .navbar {
+        padding: 4px 16px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .links li:not(:last-child) {
+        display: none;
+    }
+
+    #home,
+    #stacks,
+    #projects {
+        padding: 48px 24px;
+    }
+
+    #contact {
+        margin: 0px 24px 48px 24px;
+        padding: 56px 24px;
+    }
+
+    .mainfooter {
+        padding: 40px 24px;
+    }
+}
