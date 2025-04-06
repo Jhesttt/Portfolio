@@ -625,16 +625,20 @@
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
     ></script>
     <script
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
     ></script>
-    <script src="script.js"></script>
-    <script src="projects.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
+    <script src="script.js" defer></script>
+    <script src="projects.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script defer>
+      window.addEventListener("load", () => {
+        AOS.init();
+      });
     </script>
   </body>
 </html>
