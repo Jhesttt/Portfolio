@@ -879,6 +879,10 @@ html {
         display: block;
     }
 
+    .content p {
+        margin-bottom: 24px;
+    }
+
     .links li:not(:last-child) {
         display: none;
     }
