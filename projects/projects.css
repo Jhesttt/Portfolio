@@ -467,6 +467,16 @@ html {
     }
 }
 
+@media all and (max-width: 1025px) {
+    .projectList {
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 40px;
+    }
+}
+
 @media all and (max-width: 760px) {
     .content {
         padding: 72px 60px;
