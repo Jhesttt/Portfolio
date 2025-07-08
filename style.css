@@ -383,6 +383,18 @@ html {
     background-color: #FF6C37;
 }
 
+.tailwind:hover {
+    background-color: #00bcff;
+}
+
+.mongodb:hover {
+    background-color: #00684a;
+}
+
+.wordpress:hover {
+    background-color: #007298;
+}
+
 .svgs {
     height: 28px;
     width: 28px;
